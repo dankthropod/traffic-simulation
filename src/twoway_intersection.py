@@ -115,8 +115,11 @@ sim.create_gen({
     [1, {'path': [3, *road(12+7*n), 6]}]
 ]})
 
+# original values 0,2 and 1,3
 sim.create_signal([[0, 2], [1, 3]])
 
+#print(sim.roads)
+print(sim.traffic_signals)
 
 # Start simulation
 win = Window(sim)

@@ -315,10 +315,10 @@ class Window:
         # Fill background
         self.background(*self.bg_color)
 
-        # Major and minor grid and axes
-        # self.draw_grid(10, (220,220,220))
-        # self.draw_grid(100, (200,200,200))
-        # self.draw_axes()
+        # Major and minor grid and axes (good for debugging, comment out when you finish)
+        self.draw_grid(10, (220,220,220))
+        self.draw_grid(100, (200,200,200))
+        self.draw_axes()
 
         self.draw_roads()
         self.draw_vehicles()

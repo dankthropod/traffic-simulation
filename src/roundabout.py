@@ -118,6 +118,8 @@ sim.create_gen({
     ]
 })
 
+#print(sim.roads)
+
 # Start simulation
 win = Window(sim)
 win.zoom = 10
